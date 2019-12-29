@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/feed1"
+>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_margin="10dp"
+                  android:id="@+id/lin2"
+                  android:background="@drawable/border_style">
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/lin3"
+                      android:orientation="horizontal"
+
+                      android:layout_margin="5dp">
+
+            <LinearLayout android:layout_width="142dp"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:layout_margin="5dp"
+                          android:id="@+id/lin4">
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/feedusername1"
+                          android:text="text1"
+                          android:textStyle="bold"
+                          android:layout_marginTop="5dp"/>
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/complain_cat_1"
+                          android:text="text2"
+                          android:layout_marginTop="5dp"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/complain_cat_2"
+                          android:text="text3"
+                          android:layout_marginTop="5dp"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/complain_date_time"
+                          android:text="text3"
+                          android:layout_marginTop="5dp"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/acceptstatus"
+
+                          android:textColor="#008000"
+
+                          android:layout_marginTop="10dp"/>
+
+
+
+            </LinearLayout>
+
+
+            <ImageButton android:layout_width="100dp"
+                         android:layout_height="100dp"
+                         android:layout_marginLeft="70dp"
+                         android:layout_marginBottom="5dp"
+                         android:layout_marginTop="10dp"
+                         android:background="@drawable/map1"
+                         android:id="@+id/imgg1"/>
+
+
+
+        </LinearLayout>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/txtacceptingtime"
+                  android:text=""
+
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="2dp"
+                  android:layout_marginBottom="10dp"
+        />
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:id="@+id/lin5">
+
+            <ToggleButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/hit_btn"
+                    android:textOn="liked"
+
+                    android:drawableStart="@drawable/statechange"
+                    android:textOff="like"
+                    tools:ignore="RtlCompat"/>
+
+
+            <Button
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/get_dir_btn"
+                    android:text="Get details"
+
+                    android:layout_width="match_parent"/>
+
+            <TextView
+                    android:id="@+id/textViewOptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:text="&#8942;"
+                    android:textAppearance="?android:textAppearanceLarge"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_complains"
+                android:icon="@drawable/ic_complain"
+                android:title="My Complains"/>
+
+
+        <item
+                android:id="@+id/nav_solved_complain"
+                android:icon="@drawable/ic_thumb_up_change"
+                android:title="My Solved Complain"/>
+        <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings"/>
+        <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback"/>
+        <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout_1"
+                android:title="Logout"/>
+    </group>
+
+
+</menu>

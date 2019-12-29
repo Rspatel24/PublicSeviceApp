@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Login.RegistrationActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_margin="10dp">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Registration"
+                      android:textColor="#FF000000"
+                      android:textSize="30dp"
+                      android:gravity="center"/>
+
+            <EditText
+                    android:id="@+id/edtmobnum"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:hint="enter mobile number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <Button
+                        android:id="@+id/btnsend"
+                        android:text="send otp"
+                        android:onClick="send_otp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"/>
+                <Button
+                        android:id="@+id/btnresendotp"
+                        android:text="Resend otp"
+                        android:onClick="send_otp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"/>
+            </LinearLayout>
+            <EditText
+                    android:id="@+id/edtotp"
+                    android:inputType="number"
+                    android:hint="enter otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <Button
+                    android:id="@+id/btnverify"
+                    android:layout_marginTop="10dp"
+                    android:text="verify"
+                    android:onClick="verify"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Firstname"
+                      android:layout_marginTop="20dp"
+                      android:id="@+id/edtfirstname"/>
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Lastname"
+                      android:id="@+id/edtlastname"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email-ID"
+                    android:id="@+id/edtemailid"/>
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Password"
+                      android:inputType="textPassword"
+                      android:id="@+id/edtpassword2"/>
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Re-Password"
+                      android:inputType="textPassword"
+                      android:id="@+id/edtrepassword"/>
+            <EditText
+                    android:inputType="textMultiLine"
+                    android:id="@+id/edtaddress"
+                    android:lines="6"
+                    android:minLines="6"
+                    android:gravity="top|left"
+                    android:maxLines="10"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:scrollbars="vertical"
+                    android:hint="Address"/>
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Pincode"
+                      android:inputType="number"
+                      android:maxLength="6"
+                      android:id="@+id/edtpincode"/>
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:id="@+id/btnsubmit"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel"
+                    android:id="@+id/btncancel"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

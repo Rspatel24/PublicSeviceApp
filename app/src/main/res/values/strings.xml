@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PublicService</string>
+    <string name="todo">TODO</string>
+    <string name="next">Next</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="selectcomplain">Select Complain</string>
+    <string-array name="complain">
+        <item>Garbage &amp; Cleanliness</item>
+        <item>Drainage Drain</item>
+        <item>Street light</item>
+        <item>Water supply</item>
+    </string-array>
+    <string name="title_activity_get__direction_2">Get_Direction_2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login_with_email">Login with Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user_register_here">new user ? Register Here</string>
+
+
+</resources>

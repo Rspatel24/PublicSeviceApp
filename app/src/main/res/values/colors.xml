@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#026100</color>
+    <color name="colorPrimaryDark">#00840d</color>
+    <color name="colorAccent">#40B844</color>
+    <color name="colorforno">#d80321</color>
+    <color name="toggalidel">#FFFFFF</color>
+    <color name="toggalchange">#00840d</color>
+
+</resources>

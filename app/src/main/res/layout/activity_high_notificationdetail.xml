@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".HighNotificationdetail">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Your Complaint Accepted"
+              android:gravity="center"
+              android:textSize="30dp"
+              android:textColor="#008000"/>
+    <TextView android:layout_width="match_parent"
+              android:layout_marginTop="30dp"
+              android:layout_height="wrap_content"
+              android:text="Here is your complaint solving officer's detail"
+              android:gravity="left"
+              android:textSize="17dp"
+    />
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="30dp"
+                  android:layout_gravity="center"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+
+            <TextView android:layout_width="180dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.5"
+                      android:textSize="20dp"
+                      android:textStyle="bold"
+                      android:text="Name"
+
+            />
+            <TextView android:layout_width="180dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.5"
+                      android:id="@+id/txthighname"
+                      android:textSize="20dp"
+            />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="30dp"
+                      android:orientation="horizontal">
+
+            <TextView android:layout_width="180dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.5"
+                      android:textSize="20dp"
+                      android:textStyle="bold"
+                      android:text="E-mail Id"
+
+            />
+            <TextView android:layout_width="180dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.5"
+                      android:id="@+id/txtempid"
+                      android:textSize="20dp"
+            />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="30dp"
+                      android:orientation="horizontal">
+
+            <TextView android:layout_width="180dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.5"
+                      android:textSize="20dp"
+                      android:textStyle="bold"
+                      android:text="Department"
+
+            />
+            <TextView android:layout_width="180dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.5"
+                      android:id="@+id/txthighdepartment"
+                      android:textSize="20dp"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
